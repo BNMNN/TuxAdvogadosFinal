@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nome": "Bernardo",
+      "sobrenome": "Neumann",
+      "cpf": "999.999.999-99",
+      "idade": 21,
+      "endereco": "rua luxemburgo",
+      "id": 1
+    },
+    {
+      "nome": "Thyago ",
+      "sobrenome": "Almeida",
+      "cpf": "999.999.999-99",
+      "idade": 41,
+      "endereco": "rua luxemburgo",
+      "id": 2
+    },
+    {
+      "nome": "Maria",
+      "sobrenome": "Alves",
+      "cpf": "999.999.999-99",
+      "idade": 41,
+      "endereco": "rua luxemburgo",
+      "id": 3
+    }
+  ]
+}

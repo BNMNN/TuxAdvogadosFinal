@@ -1,0 +1,21 @@
+<section class="contact">
+    <h3><app-negrito [palavra]="texto2"></app-negrito></h3>
+<ul class="clientes-list">
+  <div *ngFor="let usuario of usuarios">
+    <li  class="cliente-item" *ngIf="control == true">
+      <div >
+        ID: {{ usuario.id }} | Nome: {{ usuario.nome }} {{ usuario.sobrenome }} | CPF: {{ usuario.cpf }} | Idade: {{ usuario.idade }} | Endereço: {{ usuario.endereco }}
+      </div>   
+     
+    </li>
+    <li class="cliente-item" *ngIf="control != true && usuario.idade >= 60">
+      <div >
+        ID: {{ usuario.id }} | Nome: {{ usuario.nome }} {{ usuario.sobrenome }} | CPF: {{ usuario.cpf }} | Idade: {{ usuario.idade }} | Endereço: {{ usuario.endereco }}
+      </div>
+    </li>
+  </div>
+
+</ul>
+
+<button (click)="obterUsuariosMaisVelhos()">{{nameButton}}</button>
+</section>

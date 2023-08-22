@@ -1,0 +1,158 @@
+/* Reset de estilos para garantir uma base consistente */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos globais */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos do cabeçalho */
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .nav-links li {
+    list-style: none;
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #ff9900;
+  }
+  
+  /* Estilos do herói */
+  .hero {
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-primary,
+  .btn-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-primary {
+    background-color: #ff9900;
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background-color: #333;
+    color: #fff;
+    margin-left: 15px;
+  }
+  
+  .btn-primary:hover,
+  .btn-secondary:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Estilos das seções */
+  .about,
+  .services,
+  .contact {
+    background-color: #f7f7f7;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .about h2,
+  .services h2,
+  .contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .about p,
+  .services p,
+  .contact p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos do rodapé */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  form textarea {
+    resize: vertical;
+  }
+  form button {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #ccc;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ul li {
+    margin-bottom: 10px;
+  }
+  
